@@ -1,7 +1,7 @@
 package com.xrstudio.rxjava.demoappofworkmanager;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -12,13 +12,11 @@ import android.widget.ImageView;
 import com.xrstudio.rxjava.demoappofworkmanager.adapter.ConversationAdapter;
 import com.xrstudio.rxjava.demoappofworkmanager.db.MST_MESSAGE_TABLE;
 
-import org.jivesoftware.smack.SmackException;
 import org.jivesoftware.smack.packet.Message;
 
 import javax.annotation.Nullable;
 
 import io.realm.OrderedCollectionChangeSet;
-import io.realm.OrderedRealmCollection;
 import io.realm.OrderedRealmCollectionChangeListener;
 import io.realm.Realm;
 import io.realm.RealmResults;
